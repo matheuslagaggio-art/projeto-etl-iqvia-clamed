@@ -12,6 +12,15 @@ O objetivo é tratar dados de vendas da IQVIA e cruzá-los com informações int
 - psycopg2
 - Git/GitHub
 - Jupyter Notebook (validação)
-- Matplotlib / Seaborn
+- Matplotlib
+  
+ ---
+ 
+O banco foi modelado em PostgreSQL utilizando:
+- Tabela dimensão: dim_filial_brick
+- Tabela fato: fact_vendas_iqvia
+
+O modelo relacional foi criado no pgAdmin4.
+
 
 ## 📁 Estrutura do Projeto
